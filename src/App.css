@@ -1,3 +1,7 @@
+* {
+ font-family: 'Bai Jamjuree', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -42,4 +46,15 @@
 a
 {
     color: #ffffff!important;
+}
+.insidenav{
+  margin: -18px -12px;
+  position: fixed;
+}
+.logoScooter{
+  align-items: center;
+  width:150px;
+}
+.logotxt{
+  font-size: 30px;
 }
