@@ -55,6 +55,9 @@ a
   align-items: center;
   width:150px;
 }
+.logoScootersmall{
+  height: 50px;
+}
 .logotxt{
   font-size: 30px;
 }
