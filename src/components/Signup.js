@@ -21,22 +21,22 @@ function Signup() {
         e.preventDefault()
         const errors = Validation(user)
         setErrors(errors)
-        fetch('https://localhost:3000/users/register', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(user)
-        })
-            .then(res => res.json())
-            .then(data => {
-                if (data.error) {
-                    alert(data.error)
-                } else {
-                    alert(data.message)
-                    window.location.href = '/login'
-                }
-            })
+        // fetch('https://localhost:3000/users/register', {
+        //     method: 'POST',
+        //     headers: {
+        //         'Content-Type': 'application/json'
+        //     },
+        //     body: JSON.stringify(user)
+        // })
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         if (data.error) {
+        //             alert(data.error)
+        //         } else {
+        //             alert(data.message)
+        //             window.location.href = '/login'
+        //         }
+        //     })
     }
 
   return (
