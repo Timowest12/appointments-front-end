@@ -83,7 +83,9 @@ function Navbar(props) {
                             <hr />
                             <div class="dropdown pb-4">
                                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <Link to="/form">
                                     <span class="d-none d-sm-inline mx-1">user</span>
+                                    </Link>
                                 </a>
 
                             </div>
