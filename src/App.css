@@ -1,3 +1,7 @@
+* {
+ font-family: 'Bai Jamjuree', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -25,7 +29,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffffff;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +39,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navSideIcon{
+  font-size: 40px;
+}
+a
+{
+    color: #ffffff!important;
+}
+.insidenav{
+  margin: -18px -12px;
+  position: fixed;
+}
+.logoScooter{
+  align-items: center;
+  width:150px;
+}
+.logoScootersmall{
+  height: 50px;
+}
+.logotxt{
+  font-size: 30px;
 }
