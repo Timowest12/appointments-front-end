@@ -61,3 +61,46 @@ a
 .logotxt{
   font-size: 30px;
 }
+.modelwrapper{
+  height: 100%;
+  width: inherit;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content-block{
+  overflow: hidden;
+}
+.ModelScooterBlock{
+  width: 400px;
+}
+.ModelScooterWrapper{
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+        overflow-y: hidden;
+        
+}
+
+.ModelScooterBlockImg{
+  width:100%;
+  
+}
+.ModelScooterBlockDescription{
+  width:inherit;
+  padding: 10px;
+}
+.centerall{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+}
