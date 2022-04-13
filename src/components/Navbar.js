@@ -89,7 +89,7 @@ function Navbar(props) {
                             </div>
                         </div>
                     </div>
-                    <div class="col py-6">
+                    <div class="col py-6 col-md-9 col-xl-10">
                         <span className='d-sm-none'>
                             <nav class="navbar navbar-dark bg-dark insidenav">
 
