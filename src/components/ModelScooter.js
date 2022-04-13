@@ -2,11 +2,11 @@ import React from 'react'
 
 function ModelScooter(props) {
   return (
-    <div className='ModelScooterBlock'>
+    <a className='ModelScooterBlock' href={props.title}>
         <img className='ModelScooterBlockImg' src={props.imgurl} alt={props.title} />
         <h3>{props.title}</h3>
         <p className='ModelScooterBlockDescription'>{props.description}</p>
-    </div>
+    </a>
   )
 }
 
