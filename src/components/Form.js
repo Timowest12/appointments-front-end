@@ -8,8 +8,8 @@ const Form = () => {
             <h2>Vespa Splash Page</h2>
         </div>
         <div>
-            <Link to="/login" class="btn btn-primary">Login</Link>
-            <Link to="/signup" class="btn btn-primary">Signup</Link>
+            <Link to="/login" className="btn btn-primary">Login</Link>
+            <Link to="/signup" className="btn btn-primary">Signup</Link>
         </div>
     </div>
   )
