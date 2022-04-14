@@ -83,7 +83,7 @@ function Navbar(props) {
                             </div>
                         </div>
                     </div>
-                    <div className="col py-3">
+                    <div class="col py-6 col-xs-8 col-md-9 col-xl-10">
                         <span className='d-sm-none'>
                             <nav className="navbar navbar-dark bg-dark insidenav">
 
@@ -95,8 +95,9 @@ function Navbar(props) {
 
 
 
-
+                        <div class="centerall">
                         {props.content}
+                            </div>
                     </div>
                 </div>
             </div>
