@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 function ShoppingPage() {
   return (
     <div>ShoppingPage</div>
-  )
+  );
 }
 
-export default ShoppingPage
+export default ShoppingPage;
