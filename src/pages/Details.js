@@ -3,7 +3,9 @@ import Container from 'react-bootstrap/Container';
 
 function Details() {
   return (
-    <div>Details</div>
+    <Container>
+      <h1>Details</h1>
+    </Container>
   );
 }
 
