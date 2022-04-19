@@ -11,7 +11,10 @@ function Details() {
             <img className="thumbnail images rounded" src="https://images.carandbike.com/bike-images/large/bajaj/chetak/bajaj-chetak.jpg" alt="vacation house" />
           </div>
           <Card.Body>
-            
+            <div classNAme="details-text-container">
+              
+            </div>
+
           </Card.Body>
         </div>
       </div>
