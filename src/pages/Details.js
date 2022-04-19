@@ -5,8 +5,9 @@ function Details() {
   return (
     <Container>
       <div className="details-container">
+        <div className="flex-direction">
 
-        
+        </div>
       </div>
     </Container>
   );
