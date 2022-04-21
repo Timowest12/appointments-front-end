@@ -14,6 +14,7 @@ function Details() {
             <div className="details-text-container">
               <div>
               <h3 className="text-dark">Scooter Name</h3>
+              <p className="description my-4">Description</p>
 
               </div>
             </div>
