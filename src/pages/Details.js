@@ -16,7 +16,8 @@ function Details() {
               <h3 className="text-dark">Scooter Name</h3>
               <p className="description my-4">Description</p>
               <div>
-                
+              <p className="description">Scooter location info</p>
+
               </div>
 
               </div>
