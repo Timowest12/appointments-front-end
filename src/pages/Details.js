@@ -20,6 +20,7 @@ function Details() {
               <p className="description">Scooter price</p>
 
               </div>
+              <button variant="success" className="btn-success theme-btn mt-4 rounded" size="lg" type="button">Reservation</button>
 
               </div>
             </div>
