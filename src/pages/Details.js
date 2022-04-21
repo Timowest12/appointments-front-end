@@ -17,6 +17,7 @@ function Details() {
               <p className="description my-4">Description</p>
               <div>
               <p className="description">Scooter location info</p>
+              <p className="description">Scooter price</p>
 
               </div>
 
