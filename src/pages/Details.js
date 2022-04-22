@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import '../details.css'
+import './details.css'
 
 function Details() {
   return (
@@ -10,10 +10,10 @@ function Details() {
         <div className="flex-direction">
         <div className="d-flex">
             <ul className="main-ul">
-                <button>Models</button>
-                <button>Lifestyle</button>
-                <button>Shop</button>
-                <button>Test Drive</button>
+                <a href="#">Models</a>
+                <a href="#">Lifestyle</a>
+                <a href="#">Shop</a>
+                <a href="#">Test Drive</a>
             </ul>
         </div>
         <div>
