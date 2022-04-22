@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
-import './details.css'
+import '../details.css'
 
 function Details() {
   return (
