@@ -9,8 +9,8 @@
     margin-top:30px;
 }
 
-.main-ul button::hover {
-    color: green;
+.main-ul button:hover {
+    background-color: green;
 
 }
 .details-container {
