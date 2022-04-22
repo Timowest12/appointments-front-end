@@ -9,7 +9,7 @@ function Details() {
       <div className="details-container">
         <div className="flex-direction">
         <div className="d-flex">
-            <ul>
+            <ul className="main-ul">
                 <button>Models</button>
                 <button>Lifestyle</button>
                 <button>Shop</button>
