@@ -22,10 +22,10 @@ function Details() {
           <Card.Body>
             <div className="details-text-container">
               <div>
-              <h3 className="text-dark">Scooter Name</h3>
+              {/* <h3 className="text-dark">Scooter Name</h3>
               <p className="description my-4">Description</p>
               <p className="description">Scooter location</p>
-              <p className="description">Scooter price</p>
+              <p className="description">Scooter price</p> */}
               <div>
               </div>
               <button variant="success" className="btn-success theme-btn mt-4 rounded" size="lg" type="button">Reservation</button>
