@@ -9,6 +9,9 @@ import Models from './pages/Models';
 import TestDrive from './pages/TestDrive';
 import Reservations from './pages/Reservations';
 import Shopping from './pages/Shopping';
+import Form from './components/Form';
+import Signup from './components/Signup';
+import Login from './components/Login';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -19,7 +22,9 @@ ReactDOM.render(
         <Route path="/reserve" element={<Navbar content={<TestDrive />} />} />
         <Route path="/reservations" element={<Navbar content={<Reservations />} />} />
         <Route path="/shopping" element={<Navbar content={<Shopping />} />} />
-        {/* <Route path="/scooters" element={<Navbar content={<Models />} />} /> */}
+        <Route path="/form" element={<Navbar content={<Form />} />} />
+        <Route path="/signup" element={<Navbar content={<Signup />} />} />
+        <Route path="/login" element={<Navbar content={<Login />} />} />
       </Routes>
     </BrowserRouter>
 
