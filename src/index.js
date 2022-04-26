@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
@@ -12,7 +12,6 @@ import Shopping from './pages/Shopping';
 import Form from './components/Form';
 import Signup from './components/Signup';
 import Login from './components/Login';
-
 
 ReactDOM.render(
   <React.StrictMode>
@@ -30,7 +29,7 @@ ReactDOM.render(
     </BrowserRouter>
 
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function

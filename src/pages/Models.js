@@ -24,4 +24,4 @@ function Models() {
   )
 }
 
-export default Models
+export default Models;

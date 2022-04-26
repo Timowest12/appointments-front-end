@@ -1,11 +1,9 @@
-import React from 'react'
-import { Link } from "react-router-dom";
-import { GiScooter } from 'react-icons/gi';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { GiScooter, GiHomeGarage } from 'react-icons/gi';
 import { RiReservedFill } from 'react-icons/ri';
-import { GiHomeGarage } from 'react-icons/gi';
 import { IoMdAddCircleOutline } from 'react-icons/io';
 import { MdDelete } from 'react-icons/md';
-
 
 function Navbar(props) {
     return (
@@ -72,7 +70,68 @@ function Navbar(props) {
                                 </li>
 
 
+                <li>
 
+                  <ul className="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                    <li className="w-100">
+                        <a href="#" className="nav-link px-0">
+                            {' '}
+                            <span className="d-none d-sm-inline">
+                                <Link to="/scooters">SCOOTERS</Link>
+                              </span>
+                            <Link to="/scooters">
+                                <span className="d-sm-none">
+                                    <GiScooter className="navSideIcon sm-none" />
+                                  </span>
+                              </Link>
+                          </a>
+                      </li>
+                    <li>
+                        <a href="#" className="nav-link px-0">
+                            {' '}
+                            <span className="d-none d-sm-inline"><Link to="/reserve">RESERVE</Link></span>
+                            <Link to="/reserve">
+                                <span className="d-sm-none">
+                                    <RiReservedFill className="navSideIcon sm-none" />
+                                  </span>
+                              </Link>
+                          </a>
+                      </li>
+                    <li>
+                        <a href="#" className="nav-link px-0">
+                            {' '}
+                            <span className="d-none d-sm-inline"><Link to="/reservations">MY RESERVATIONS</Link></span>
+                            <Link to="/reservations">
+                                <span className="d-sm-none">
+                                    <GiHomeGarage className="navSideIcon sm-none" />
+                                  </span>
+                              </Link>
+                          </a>
+                      </li>
+                    <li>
+                        <a href="#" className="nav-link px-0">
+                            {' '}
+                            <span className="d-none d-sm-inline"><Link to="/shopping">ADD RESERVATIONS</Link></span>
+                            <Link to="/shopping">
+                                <span className="d-sm-none">
+                                    <IoMdAddCircleOutline className="navSideIcon sm-none" />
+                                  </span>
+                              </Link>
+                          </a>
+                      </li>
+                    <li>
+                        <a href="#" className="nav-link px-0">
+                            {' '}
+                            <span className="d-none d-sm-inline"><Link to="/scooters">DELETE MOTERCYCLE</Link></span>
+                            <Link to="/scooters">
+                                <span className="d-sm-none">
+                                    <MdDelete className="navSideIcon sm-none" />
+                                  </span>
+                              </Link>
+                          </a>
+                      </li>
+                  </ul>
+                </li>
 
                             </ul>
                             <hr />
@@ -93,7 +152,15 @@ function Navbar(props) {
                             <br />
                         </span>
 
+              </div>
+            </div>
+          </div>
+          <div className="col py-3">
+            <span className="d-sm-none">
+              <nav className="navbar navbar-dark bg-dark insidenav">
 
+                <span className="navbar-brand mb-0 h1">Scooter rental</span>
+              </nav>
 
                         <div class="centerall">
                         {props.content}
@@ -102,7 +169,9 @@ function Navbar(props) {
                 </div>
             </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default Navbar
+export default Navbar;
